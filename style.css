@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #b22222;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #c71585;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.featured {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.gallery {
+  margin: 40px 0;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-grid img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+.facts {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.facts ol {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 25px;
+  font-size: 18px;
+}
